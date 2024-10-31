@@ -1,0 +1,99 @@
+.links-bg{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111;
+    padding: 30px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+
+#linksTitle{
+    margin: 80px 0px -20px 0px;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 3px;
+    transition: 1.5s;
+    cursor: default;
+}
+
+.link-button{
+    width: 80vw;
+    height: 50px;
+    margin: 60px 0px 0px 0px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    line-height: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.link-button:hover{
+    height: 150px;
+}
+.link-button p{
+    font-size: 30px;
+    padding: 0px 0px 5px 0px;
+}
+
+.link-button img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 15px 0px 0px;
+}
+
+#instagram{
+    background-image:linear-gradient(to right,#feda75, #fa7e1e, #d62976, #4f5bd5);
+}
+
+#twitter{
+    background-image:linear-gradient(to right, #51d1f9, #298bd6, #254dd2);
+}
+
+#youtube-shorts, #youtube{
+    background-image:linear-gradient(to right, #f95151, #d62929, #d24525);
+}
+
+#youtube-shorts:hover, #youtube:hover{
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    box-shadow: 0px 0px 25px rgb(172, 9, 9);
+    color: rgb(172, 9, 9);
+}
+
+#youtube-shorts:hover img, #youtube:hover img{
+    filter: invert(11%) sepia(49%) saturate(7082%) hue-rotate(354deg) brightness(101%) contrast(103%);
+}
+
+#twitter:hover{
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    box-shadow: 0px 0px 25px #298bd6;
+    color: #298bd6;
+}
+
+#twitter:hover img{
+    filter: invert(61%) sepia(40%) saturate(6512%) hue-rotate(183deg) brightness(90%) contrast(85%);
+}
+
+#instagram:hover{
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    box-shadow: 0px 0px 25px #d62976;
+    color: #fa7e1e;
+}
+
+#instagram:hover img{
+    filter: invert(60%) sepia(21%) saturate(6342%) hue-rotate(348deg) brightness(101%) contrast(96%);
+}
+
+
+.box{
+    background: -webkit-linear-gradient(var(--bgGradient));
+    background-size: 800%;
+	animation: moving_bg 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
